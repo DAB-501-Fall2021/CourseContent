@@ -1,3 +1,10 @@
+# Week 2 - Try Out Swirl
+
+Head over to the Swirl folder listed above and try out the Swirl tutorials.  
+
+Additional Swirl courses can be found at: http://swirlstats.com/scn/title.html
+
+
 # Week 1 - Install R and RStudio
 
 Welcome to DAB 501 Basic Statistics & Exploratory Data Analytics
