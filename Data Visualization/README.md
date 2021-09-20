@@ -10,7 +10,7 @@ Once the file is located in the Data folder, import the data in RStudio.
 
 In the console, type:
 
-```{r}
+```r
 Pokemon <-read.csv("~/Desktop/DAB501/Data/Pokemon.csv", header=TRUE) 
 View(Pokemon)
 ```
@@ -19,7 +19,7 @@ Now inspect the data within RStudio.  Notice the headings are appropriately assi
 
 Create a plot using ggplot2 for Attack vs. Defense.  To begin, you may use the code below, then continue to improve the visualization by adding labels, colours, etc.
 
-```{r}
+```r
 ggplot(Pokemon, aes(x=Attack, y=Defense, colour=Type.1)) + geom_point()
 ```
 
