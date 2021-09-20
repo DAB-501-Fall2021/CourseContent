@@ -1,3 +1,11 @@
+# Week 3 - Data Visualization
+
+We will be using the Pokemon dataset found from Kaggle at the link below to create visualizations.  The dataset contains both numerical and categorical data and it is available as a .csv file.  
+
+https://www.kaggle.com/abcsds/pokemon?select=Pokemon.csv
+
+Please go to the 'Data Visualization' folder to download the dataset and follow the instructions to contruct the visualizaitons.  
+
 # Week 2 - Try Out Swirl
 
 Head over to the Swirl folder listed above and try out the Swirl tutorials.  
