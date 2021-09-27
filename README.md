@@ -1,6 +1,6 @@
 # Week 4 - Data Visualization - Mapping vs. Setting
 
-We will be using the dataset to learn about ggobject and the difference between mapping and setting, as well as global and local mapping.  
+We will be using the dataset National Morbidity and Mortality Air Pollution Study (NMMAPS) to learn about ggobject and the difference between mapping and setting, as well as global and local mapping.  
 
 First, load tidyverse package
 
@@ -27,7 +27,9 @@ Now, extend the ggobject to other plot types.
 Store new ggbject in variable p1, including labels
 
 ```r
-p1 <- ggplot(chicago, aes(x = date, y = temp, color = season)) + geom_point() + labs(x = "Year", y = "Temperature (°F)")
+p1 <- ggplot(chicago, aes(x = date, y = temp, color = season)) + 
+           geom_point() + 
+           labs(x = "Year", y = "Temperature (°F)")
 
 ```
 
