@@ -1,3 +1,42 @@
+# Week 4 - Data Visualization - Mapping vs. Setting
+
+We will be using the dataset to learn about ggobject and the difference between mapping and setting, as well as global and local mapping.  
+
+First, load tidyverse package
+
+Next, import the dataset from the Data Visualization folder using the readr package, available through tidyverse
+
+```{r}
+chicago <- read_csv(“https://raw.githubusercontent.com/DAB-501-Fall2021/CourseContent/main/Data%20Visualization/chicago-nmmaps.csv”)
+```
+
+Store current ggobject in variable g, including mappings
+
+```{r}
+g <- ggplot(chicago, aes(x=date, y=temp))
+```
+
+Extend ggobject g by adding other layers, including settings
+
+```{r}
+g + geom_point(colour = "firebrick", shape = "diamond", size = 2)
+```
+
+Now, extend the ggobject to other plot types.
+
+Store new ggbject in variable p1, including labels
+
+```{r}
+p1 <- ggplot(chicago, aes(x = date, y = temp, color = season)) + geom_point() + labs(x = "Year", y = "Temperature (°F)")
+
+```
+
+Extend ggobject p1 by adding other geom_xxxx layers
+
+```{r}
+p1 + geom_rug()
+```
+
 # Week 3 - Data Visualization
 
 We will be using the Pokemon dataset found from Kaggle at the link below to create visualizations.  The dataset contains both numerical and categorical data and it is available as a .csv file.  
