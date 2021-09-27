@@ -6,19 +6,19 @@ First, load tidyverse package
 
 Next, import the dataset from the Data Visualization folder using the readr package, available through tidyverse
 
-```{r}
+```r
 chicago <- read_csv(“https://raw.githubusercontent.com/DAB-501-Fall2021/CourseContent/main/Data%20Visualization/chicago-nmmaps.csv”)
 ```
 
 Store current ggobject in variable g, including mappings
 
-```{r}
+```r
 g <- ggplot(chicago, aes(x=date, y=temp))
 ```
 
 Extend ggobject g by adding other layers, including settings
 
-```{r}
+```r
 g + geom_point(colour = "firebrick", shape = "diamond", size = 2)
 ```
 
@@ -26,14 +26,14 @@ Now, extend the ggobject to other plot types.
 
 Store new ggbject in variable p1, including labels
 
-```{r}
+```r
 p1 <- ggplot(chicago, aes(x = date, y = temp, color = season)) + geom_point() + labs(x = "Year", y = "Temperature (°F)")
 
 ```
 
 Extend ggobject p1 by adding other geom_xxxx layers
 
-```{r}
+```r
 p1 + geom_rug()
 ```
 
