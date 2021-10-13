@@ -1,3 +1,18 @@
+# Week 6 - Data Transformation and Visualization
+
+We will be using the NMMAPS dataset used in Week 4. 
+First, load tidyverse, and then import the dataset using the code below: (you may need to replace the "")
+
+```r
+chicago <- read_csv("https://raw.githubusercontent.com/DAB-501-Fall2021/CourseContent/main/Data%20Visualization/chicago-nmmaps.csv")
+```
+Transform and visualize the dataset to answer the following questions.
+
+1. What is the highest temperature in Summer? In Winter?
+2. Which season had the most deaths?
+3. For the season with the most deaths, what is the relationship between pm10, temperature, and death?
+
+
 # Week 4 - Data Visualization - Mapping vs. Setting
 
 We will be using the dataset National Morbidity and Mortality Air Pollution Study (NMMAPS) to learn about ggobject and the difference between mapping and setting, as well as global and local mapping.  
